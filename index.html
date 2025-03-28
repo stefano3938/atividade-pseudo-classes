@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estilização de Links</title>
+  <style>
+    a:link {
+      color: blue; /* Link padrão */
+      text-decoration: none;
+      margin: 5px;
+      padding: 10px;
+    }
+
+    a:visited {
+      color: purple; /* Link já visitado */
+    }
+
+    a:hover {
+      color: orange; /* Quando o mouse passa sobre o link */
+      background-color: yellow;
+    }
+
+    a:active {
+      color: red; /* Durante o clique no link */
+    }
+  </style>
+</head>
+<body>
+  <h1>Exemplo de Estilização de Links</h1>
+  <p>
+    <a href="https://www.exemplo.com" target="_blank">Link Padrão</a>
+    <a href="https://www.testado.com" target="_blank">Outro Link</a>
+  </p>
+</body>
+</html>
